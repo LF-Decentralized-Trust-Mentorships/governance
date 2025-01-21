@@ -13,7 +13,7 @@ repositories:
   teams:
     lf-staff: maintain
   visibility: public
-- name: wiki
+- name: mentorship-projects
   teams:
     lf-staff: maintain
   visibility: private
