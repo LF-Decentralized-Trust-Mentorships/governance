@@ -1,20 +1,37 @@
 teams:
-- name: lf-staff
-  maintainers:
-  - ryjones
-  members:
-  - daniela-barbosa
-  - davidwboswell
-  - hartm
-  - jwagantall
-  - minyu66
-  - thelinuxfoundation
+  - name: lf-staff
+    maintainers:
+      - ryjones
+    members:
+      - daniela-barbosa
+      - davidwboswell
+      - hartm
+      - jwagantall
+      - minyu66
+      - thelinuxfoundation
+  - name: tac
+    maintainers:
+      - ryjones
+    members:
+      - tkuhrt
+#    members:
+      - EnriqueL8
+      - VRamakrishna
+      - arsulegai
+      - cjhowland
+      - dmueller2001
+      - hendrikebbers
+      - matthew1001
+      - mbrandenburger
+      - petermetz
+      - wenjing
 repositories:
-- name: governance
-  teams:
-    lf-staff: maintain
-  visibility: public
-- name: mentorship-program
-  teams:
-    lf-staff: maintain
-  visibility: private
+  - name: governance
+    teams:
+      lf-staff: maintain
+    visibility: public
+  - name: mentorship-program
+    teams:
+      lf-staff: maintain
+      tac: maintain
+    visibility: public
