@@ -11,8 +11,6 @@ teams:
       - thelinuxfoundation
   - name: gitmesh-committers
     maintainers:
-      - ryjones
-    members:
       - RAWx18
   - name: tac
     maintainers:
