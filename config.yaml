@@ -9,7 +9,7 @@ teams:
       - jwagantall
       - minyu66
       - thelinuxfoundation
-  - name: multi-agent-rag-committers
+  - name: gitmesh-committers
     maintainers:
       - ryjones
     members:
@@ -29,6 +29,12 @@ teams:
       - petermetz
       - wenjing
 repositories:
+  - name: gitmesh
+    teams:
+      lf-staff: maintain
+      gitmesh-committers: maintain
+      tac: maintain
+    visibility: public
   - name: governance
     teams:
       lf-staff: maintain
@@ -36,11 +42,5 @@ repositories:
   - name: mentorship-program
     teams:
       lf-staff: maintain
-      tac: maintain
-    visibility: public
-  - name: multi-agent-rag
-    teams:
-      lf-staff: maintain
-      multi-agent-rag-committers: write
       tac: maintain
     visibility: public
