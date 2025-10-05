@@ -13,6 +13,8 @@ teams:
   - name: gitmesh-committers
     maintainers:
       - RAWx18
+    members:
+      - Parvm1102
   - name: tac
     maintainers:
       - tkuhrt
