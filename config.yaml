@@ -10,11 +10,6 @@ teams:
       - jwagantall
       - minyu66
       - thelinuxfoundation
-  - name: gitmesh-committers
-    maintainers:
-      - RAWx18
-    members:
-      - Parvm1102
   - name: tac
     maintainers:
       - tkuhrt
@@ -30,12 +25,6 @@ teams:
       - petermetz
       - wenjing
 repositories:
-  - name: gitmesh
-    teams:
-      lf-staff: maintain
-      gitmesh-committers: maintain
-      tac: maintain
-    visibility: public
   - name: governance
     teams:
       lf-staff: maintain
